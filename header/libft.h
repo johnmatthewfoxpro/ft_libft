@@ -13,10 +13,6 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 25
-# endif
-
 # include <stdarg.h>
 # include <stdlib.h>
 # include <unistd.h>
