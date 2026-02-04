@@ -4,7 +4,7 @@ My first School 42 project. LIBTFT.
 
 ## __DESCRIPTION__
 My first libary and an introduction to makefiles.
-This library includes 34 fucntions with the relevent header file and makefile.
+This library includes 34 functions with the relevent header file and makefile.
 
 The bonus was not completed.
 
