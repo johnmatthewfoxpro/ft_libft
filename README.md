@@ -12,7 +12,7 @@ The bonus was not completed.
 Use 'make' in the command line to create the library.
 After that, functions in this library can be included in any project by calling them as normal.
 Note that when compiling the library must be included.
-Example: "./main.c -Wextra -Werror -Wall libft.a"
+Example: "cc main.c -Wextra -Werror -Wall libft.a"
 
 ## __RESOURCES__
 AI was not used in this project.
