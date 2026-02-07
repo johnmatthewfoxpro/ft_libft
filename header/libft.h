@@ -13,6 +13,10 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 25
+# endif
+
 # include <stdarg.h>
 # include <stdlib.h>
 # include <unistd.h>
@@ -55,5 +59,23 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
+
+/***********************\
+*     FT_PRINTF         *
+\***********************/
+
+int		ft_printf(const char *format, ...);
+int		ft_printf_putchar_fd(char c, int fd);
+int		ft_printf_putnbr_fd(int n, int fd);
+int		ft_printf_putnbr_unsigned_fd(unsigned int n, int fd);
+int		ft_printf_putnbr_hex_fd(unsigned int n, char *base, int fd);
+int		ft_printf_pvoid(unsigned long n, char *base, int fd);
+size_t	ft_printf_putstr_fd(char *s, int fd);
+
+/***********************\
+*    GET NEXT LINE      *
+\***********************/
+
+char	*get_next_line(int fd);
 
 #endif
